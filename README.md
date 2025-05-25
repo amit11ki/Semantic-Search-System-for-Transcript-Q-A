@@ -45,7 +45,7 @@ transcript-qa-search/
 ### Prerequisites
 
 - Python 3.8+
-- (Optional) Google Gemini API key for advanced AI features
+- Google Gemini API key for advanced AI features
 
 ### Installation
 
@@ -58,11 +58,6 @@ cd Semantic-Search-System-for-Transcript-Q-A
 2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
-```
-
-3. **Set up Gemini API (Optional)**
-```bash
-export GEMINI_API_KEY="your-api-key-here"
 ```
 
 ### Usage
