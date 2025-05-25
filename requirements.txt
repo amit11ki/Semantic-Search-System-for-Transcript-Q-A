@@ -1,0 +1,11 @@
+# Minimal requirements for Transcript Q&A Search System
+
+numpy>=1.20.0
+scikit-learn>=1.0.0
+sentence-transformers>=2.2.2
+google-generativeai>=0.8.5
+streamlit>=1.20.0
+
+# Optional (if not pulled in automatically by sentence-transformers)
+torch>=2.0.0
+transformers>=4.30.0
