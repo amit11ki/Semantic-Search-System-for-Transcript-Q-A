@@ -1,4 +1,5 @@
 # 📄 Semantic Search System for Transcript Q&A
+
 A powerful semantic search system for timestamped transcripts that combines traditional keyword search with advanced AI-powered semantic understanding. Ask questions about your transcripts and get precise answers with relevant context.
 
 ## 🌟 Features
@@ -31,6 +32,7 @@ transcript-qa-search/
 │   └── .streamlit/            # Streamlit configuration
 │       └── secrets.toml       # API keys and configuration secrets
 ├── .gitignore                 # Git ignore file
+├── output.txt                 # Sample CLI output results and examples
 ├── README.md                  # Project documentation (this file)
 ├── requirements.txt           # Python dependencies
 ├── transcript.py              # CLI application
@@ -49,8 +51,8 @@ transcript-qa-search/
 
 1. **Clone the repository**
 ```bash
-git clone <your-repository-url>
-cd transcript-qa-search
+git clone https://github.com/amit11ki/Semantic-Search-System-for-Transcript-Q-A
+cd Semantic-Search-System-for-Transcript-Q-A
 ```
 
 2. **Install dependencies**
@@ -74,7 +76,7 @@ python transcript.py transcript.txt tfidf
 # Semantic search with Sentence Transformers
 python transcript.py transcript.txt llm2
 
-# AI-powered search with Gemini (requires API key)
+# AI-powered search with Gemini 
 python transcript.py transcript.txt llm1
 ```
 
@@ -102,7 +104,6 @@ Your transcript should be in this timestamped format:
 [00:12 - 00:17]  These are the terms which have confused a lot of people and if you two are one among them,
 [00:17 - 00:19]  let me resolve it for you.
 [00:19 - 00:24]  Well artificial intelligence is a broader umbrella under which machine learning and deep learning
-
 ```
 
 **Format Requirements:**
@@ -159,6 +160,7 @@ Your transcript should be in this timestamped format:
 ## 📚 Documentation & Examples
 
 - **📋 Process Documentation**: `transcript_doc.md.pdf` contains detailed design decisions, implementation details, and technical specifications
+- **📄 Text Output Examples**: `output.txt` contains sample CLI results showing actual queries and responses from all three search modes
 - **📸 CLI Examples**: `Output Screenshot/cli_output/` folder contains screenshots of command-line interface usage and results
 - **🌐 Web Interface Examples**: `Output Screenshot/web_app_output/` folder contains screenshots of the Streamlit web application
 - **🔧 Sample Data**: `transcript.txt` provides a working example of properly formatted transcript data
@@ -206,6 +208,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - **Sentence Transformers**: For providing excellent semantic search capabilities
+- **Google Gemini**: For advanced AI-powered search and answer generation
+- **Streamlit**: For the intuitive web interface framework
+
+---
+
+**Built with ❤️ for better transcript analysis and question answering**
 - **Google Gemini**: For advanced AI-powered search and answer generation
 - **Streamlit**: For the intuitive web interface framework
 
