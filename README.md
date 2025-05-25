@@ -69,14 +69,16 @@ export GEMINI_API_KEY="your-api-key-here"
 
 #### 🖥️ Command Line Interface
 
+**TF-IDF keyword search**
 ```bash
-# TF-IDF keyword search
 python transcript.py transcript.txt tfidf
-
-# Semantic search with Sentence Transformers
+```
+**Semantic search with Sentence Transformers**
+```bash
 python transcript.py transcript.txt llm2
-
-# AI-powered search with Gemini 
+```
+**AI-powered search with Gemini**
+```bash
 python transcript.py transcript.txt llm1
 ```
 
