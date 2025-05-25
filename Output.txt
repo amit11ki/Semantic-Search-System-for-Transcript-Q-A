@@ -1,0 +1,81 @@
+C:\Users\amit\Desktop\last updated today\final_transcrit>python transcript.py transcript.txt tfidf
+
+Transcript loaded. You can now ask questions.
+
+1)
+
+Ask a question
+(or press 8 to exit, or type 'switch to tfidf', 'switch to llm1', or 'switch to llm2')
+
+> machine learning
+
+Top relevant chunks:
+1. [08:12 - 08:29]  is to know that deep learning is machine learning. More specifically, it is the next evolution of machine learning. Let's take a few important parameter and compare machine learning with deep learning. So starting with data dependencies. The most important difference between deep learning and machine learning is its performance
+2. [07:53 - 08:12]  compared to machine learning where we had to manually give out that features. By now, I guess you have understood that AI is the bigger picture and machine learning and deep learning are its subpart. So let's move on and focus our discussion on machine learning and deep learning. The easiest way to understand the difference between the machine learning and deep learning
+3. [00:24 - 00:41]  come. You also seen the diagram that even deep learning is a subset of machine learning. So you can say that all three of them, the AI, the machine learning and deep learning are just the subset of each other. So let's move on and understand how exactly they differ from each other.
+
+Ask a question
+(or press 8 to exit, or type 'switch to tfidf', 'switch to llm1', or 'switch to llm2')
+
+
+2)
+
+
+Switched to mode: LLM1
+
+Ask a question
+(or press 8 to exit, or type 'switch to tfidf', 'switch to llm1', or 'switch to llm2')
+
+> Deep Learning
+
+Top relevant chunks:
+1. [10:06 - 10:22]  data. This is a very distinctive part of deep learning, which makes it way ahead of traditional machine learning. Deep learning reduces the task of developing new feature extractor for every problem. Like in the case of CNN algorithm, it first try to learn the low level features of the
+2. [11:00 - 11:17]  Let's take an example to understand this. Suppose you have a task of multiple object detection and your task is to identify what is the object and where it is present in the image. So let's see and compare how will you tackle this issue using the concept of machine learning and deep learning.
+3. [13:55 - 14:12]  Machine learning uses algorithm to parse the data, learn from the data and make informed decision based on what it has learned. Fine. Now this deep learning structures algorithms and layers to create artificial neural network that can learn and make intelligent decisions on their own.
+
+Generating answer with Gemini...
+
+Answer: Deep learning uses structured algorithms and layers to create artificial neural networks that learn and make decisions independently, unlike traditional machine learning which relies on pre-defined feature extractors.  This allows deep learning to handle tasks like object detection more effectively.
+
+Sources: [10:06 - 10:22], [11:00 - 11:17], [13:55 - 14:12]
+
+
+
+3)
+
+
+switch to llm2
+
+Switched to mode: LLM2
+
+Ask a question
+(or press 8 to exit, or type 'switch to tfidf', 'switch to llm1', or 'switch to llm2')
+
+> artificial intelligence
+
+Top relevant chunks:
+1. [01:48 - 02:07]  the behavior and nature. With AI, it is possible for machines to learn from the experience. The machines adjust their responses based on new input thereby performing human-like tasks. Artificial intelligence can be trained to accomplish specific tasks by processing large amount of data and recognizing pattern in them.
+2. [02:07 - 02:26]  You can consider that building an artificial intelligence is like building a church. The first church took generations to finish, so most of the workers who were working in it never saw the final outcome. Those working on it took pride in their craft, building bricks and chiseling stone that was going to be placed into the great structure.
+3. [02:26 - 02:52]  So as AI researchers, we should think of ourselves as humble brick makers whose job is to study how to build components, example parts, planners or learning algorithm or etc. Anything that someday someone and somewhere will integrate into the intelligence systems. Some of the examples of artificial intelligence from our day-to-day life are Apple series, display and computer, Tesla's cell driving car and many more.
+
+Ask a question
+(or press 8 to exit, or type 'switch to tfidf', 'switch to llm1', or 'switch to llm2')
+
+
+4)
+
+Ask a question
+(or press 8 to exit, or type 'switch to tfidf', 'switch to llm1', or 'switch to llm2')
+
+> example of machine learning
+
+Top relevant chunks:
+1. [05:12 - 05:27]  lines for them. Once the line is created, so from the next time we feed a new data, for example, height of a person to the model, it would easily predict the data for you and it will tell you what his predicted weight could be. I hope you got a clear understanding of machine learning.
+2. [04:04 - 04:18]  These programs or algorithms are designed in a way that they can learn and improve over time when exposed to new data. Let's see an example of machine learning. Let's say you want to create a system which tells the expected weight of a person based on its height.
+3. [02:52 - 03:11]  These examples are based on deep learning and natural language processing. Well, this was about what is AI and how it gains its hype. So moving on ahead, let's discuss about machine learning and see what it is and why it was when introduced. Well, machine learning came into existence in the late 80s and the early 90s.
+
+Generating answer with Gemini...
+
+Answer: A machine learning example is a system predicting a person's weight based on their height.  This system improves over time with more data, creating lines to predict future data.
+
+Sources: [05:12 - 05:27], [04:04 - 04:18], [02:52 - 03:11]
